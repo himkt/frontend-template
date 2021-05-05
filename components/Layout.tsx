@@ -21,10 +21,10 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
         </div>
         <div id="navbarmenu" className="navbar-menu">
           <div className="navbar-start">
-            <Link prefetch href="/">
+            <Link href="/">
               <a className="navbar-item">Home</a>
             </Link>
-            <Link prefetch href="/elsewhere">
+            <Link href="/elsewhere">
               <a className="navbar-item">Elsewhere</a>
             </Link>
           </div>
