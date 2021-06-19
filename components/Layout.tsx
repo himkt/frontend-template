@@ -38,8 +38,12 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
         </div>
       </nav>
     </header>
-    {children}
-    <footer>
+    <section className="section">
+      <div className="container">
+        {children}
+      </div>
+    </section>
+    <footer className="footer">
       <hr />
       <span>I'm here to stay (Footer)</span>
     </footer>
